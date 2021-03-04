@@ -20,8 +20,8 @@ public class Main {
         Vagao vagao = new Vagao(cargaVagao);
         Caminhao caminhao = new Caminhao(cargaCaminhao);
 
-        System.out.printls(vagao.calculaFrete(distancia));
-        System.out.printls(caminhao.calculaFrete(distancia));
+        System.out.println(vagao.calculaFrete(distancia));
+        System.out.println(caminhao.calculaFrete(distancia));
 
     }
 }
